@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('payments/{start_date?}/{end_date?}', ['as' => 'payments.show', 'uses' => 'LatestPaymentsController@show']);
