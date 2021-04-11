@@ -25,3 +25,5 @@ Use the following Laravel command to export the .csv file in folder storage/app:
 php artisan payments:export
 ```
 
+
+<img src="Application_GUI.png" width="640">
